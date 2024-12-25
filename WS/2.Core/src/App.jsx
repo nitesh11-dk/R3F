@@ -1,11 +1,11 @@
 import React from 'react'
-import Intro from './Components/Intro'
-
+import R3FHooks from './Components/R3FHooks'
+import Controls from './Components/Controls'
 const App = () => {
   return (
     <div className='h-screen w-screen bg-zinc-900'>
-      <Intro />
-     
+      {/* <R3FHooks /> */}
+      <Controls />
     </div>
   )
 }
